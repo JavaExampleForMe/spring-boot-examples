@@ -11,5 +11,4 @@ public class RefreshLoggingLevelApplication {
         SpringApplication.run(RefreshLoggingLevelApplication.class, args);
     }
 
-    // We can change is as well via rest request
 }

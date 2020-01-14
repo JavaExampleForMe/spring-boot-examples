@@ -14,4 +14,7 @@ public class LoggingController {
     public String hello(){
         return sampleService.sayHellow();
     }
+
+    // https://www.baeldung.com/spring-boot-changing-log-level-at-runtime
+    // changing log level by rest controller
 }
