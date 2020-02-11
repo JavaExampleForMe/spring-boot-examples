@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "2bec154d-c518-80b6-9372-62ff526f1903",
+		"name": "Game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "play",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" :1,\n\t\"name\" :\"Ida\",\n\t\"localDate\" : \"2017-01-01\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/game/play",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game",
+						"play"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "play Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" :1,\n\t\"name\" :\"Ida\",\n\t\"localDate\" : \"2017-01-01\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8090/game/setHomeTeam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"game",
+						"setHomeTeam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "userId",
+						"value": "4"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" :1,\n\t\"name\" :\"Ida\",\n\t\"localDate\" : \"2017-01-01\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8090/game/test/1?param1=20&param2=50&param3=70",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"game",
+						"test",
+						"1"
+					],
+					"query": [
+						{
+							"key": "param1",
+							"value": "20"
+						},
+						{
+							"key": "param2",
+							"value": "50"
+						},
+						{
+							"key": "param3",
+							"value": "70"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "printBeans",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" :1,\n\t\"name\" :\"Ida\",\n\t\"localDate\" : \"2017-01-01\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8090/game/printBeans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"game",
+						"printBeans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCsvStream",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" :1,\n\t\"name\" :\"Ida\",\n\t\"localDate\" : \"2017-01-01\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8090/game/getStream/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"game",
+						"getStream",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
