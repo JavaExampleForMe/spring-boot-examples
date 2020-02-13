@@ -1,4 +1,4 @@
-package com.example.emp;
+package com.example.mockmvc;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +12,4 @@ import java.util.List;
 @NoArgsConstructor
 public class Employees {
     private List<Employee> employees = new ArrayList<>();
-    public void addEmployee(Employee employee){
-        employees.add(employee);
-    }
 }
