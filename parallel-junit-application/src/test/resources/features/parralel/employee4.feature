@@ -7,7 +7,7 @@ Feature: Parallel4 Group1
 
     Examples:
       | TimeInMillis | Result |
-      | 4000         | true   |
+      | 400         | true   |
       | 100          | true   |
       | 200          | true   |
       | 40           | true   |

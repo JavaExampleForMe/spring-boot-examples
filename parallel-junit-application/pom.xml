@@ -76,8 +76,9 @@
             <version>2.22.0</version>
             <configuration>
                 <parallel>methods</parallel>
-                <!--                <useUnlimitedThreads>true</useUnlimitedThreads>-->
-                <threadCount>2</threadCount>
+<!--                <parallel>classesAndMethods</parallel>-->
+                <useUnlimitedThreads>true</useUnlimitedThreads>
+<!--                <threadCount>2</threadCount>-->
                 <excludes>
                     <exclude>**/EmployeeCleanUpTests.java</exclude>
                 </excludes>
